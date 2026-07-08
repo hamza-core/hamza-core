@@ -1,84 +1,70 @@
 <div align="center">
   <h1>⚡ Hamza</h1>
-  <h3>Backend Architect | Distributed Systems | Applied AI</h3>
+  <h3>CS Student · Backend-Focused · Building Full-Stack Systems</h3>
 
   <p>
-    <em>"I don't just write code; I engineer systems. I focus on absolute structural competence—understanding the deep mechanics of memory allocation, network protocols, and mathematical gradients rather than hiding behind black-box frameworks. I build from the ground up, because an abstraction is only as good as the engineer's understanding of what it hides."</em>
+    <em>I build systems, not demos — favoring an understanding of what's under the abstraction<br/>
+    (memory, protocols, gradients) over relying on frameworks I can't explain.</em>
   </p>
 </div>
 
 ---
 
-### 💻 Core Engineering Stack
+### Core Stack
 
-**Languages & Core Tech**  
+**Languages**
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
 
-**Backend Architecture**  
-![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![SignalR](https://img.shields.io/badge/SignalR-0078D7?style=for-the-badge&logo=microsoft&logoColor=white)
+**Backend**
+![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-**Database & Infrastructure**  
-![PostgreSQL](https://img.shields.io/badge/PostGIS-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
-![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+**Client**
+![SwiftUI](https://img.shields.io/badge/SwiftUI-000000?style=for-the-badge&logo=swift&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-**Caching & Security**  
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-
-**Applied AI & Data**  
+**Applied AI**
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-**Client-Side & Deployment**  
-![SwiftUI](https://img.shields.io/badge/SwiftUI-000000?style=for-the-badge&logo=swift&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
+---
+
+### 🚕 SafarProject — ride-sharing platform *(in progress)*
+
+Full-stack ride-sharing system built for real production patterns, not a tutorial clone:
+
+- **Backend**: ASP.NET Core Web API (.NET 10) with layered architecture — Repository, Service, and Controller layers, custom exceptions, and a `GlobalExceptionHandler` returning RFC 7807 `ProblemDetails`.
+- **Auth**: BCrypt password hashing + JWT with refresh token rotation and reuse detection.
+- **Clients**: Native SwiftUI apps for both Passenger and Driver roles.
+- **AI engine**: Separate Python service for pricing/routing intelligence.
+
+Currently finishing FluentValidation across the API before moving to the next stage.
 
 ---
 
-### 🏛️ Academic & Institutional Impact
+### 📦 DropBox Replica
+Cross-platform file sync tool — Flutter client, ASP.NET Core backend, JWT auth, Cloudflare R2 object storage, with file versioning and shareable access control.
 
-> **Note:** The following architectures were built with such structural rigor that they have been officially integrated into university curricula to teach core computer science principles to students.
-
-#### 1. IPFS Distributed File Sharing Protocol
-*A decentralized file distribution system engineered for maximum redundancy and client-side security.*
-* **Adoption:** Currently utilized by university faculty to demonstrate distributed computing and decentralized networking.
-* **Architecture:** Replaces traditional centralized storage with IPFS, handling multipart file chunks, peer-to-peer data validation, and cryptographic hash addressing.
-
-#### 2. Computer Architecture & Low-Level System Design
-*A ground-up implementation of core hardware-software communication.*
-* **Adoption:** Used as institutional teaching material for understanding memory management, register states, and compiler parsing logic.
-* **Focus:** Stripping away high-level wrappers to interact directly with system mechanics and process execution.
+### 🎓 University & Course Projects
+- **Computer Architecture project** — low-level hardware/software system work; used by a BIIT instructor as teaching material in the Computer Architecture course.
+- **IPFS File-Sharing Prototype** — decentralized storage using content-addressed chunks and P2P validation; used by a BIIT instructor as teaching material in the Information Security / Cyber Security course.
+- **Society Management System** — WinForms + SQL Server, built for BIIT.
+- **Assembly Shopping Cart** — x86 (EMU8086), for a computer architecture course.
 
 ---
 
-### 🏗️ Complex Systems & Production Work
+### 🔬 Currently studying
+- Deriving neural network gradients by hand in NumPy before reaching for PyTorch abstractions, ahead of an AI-focused final year project.
 
-#### 🚕 High-Performance Ride-Sharing Engine (current)
-*Deployed industry-grade marketplace managing driver/passenger synchronicity.*
-* **Architecture:** Live production deployment of an ASP.NET Core 8 API and PostgreSQL/PostGIS backend, integrated with a parallel Python/FastAPI microservice for AI-driven predictive pricing and NLP itineraries.
-* **Concurrency & Speed:** Mitigated severe race conditions in live bidding environments using real-time SignalR event tracking, backed by **Redis** for sub-second caching of driver locations and active bid states.
-* **Security & Auth:** Engineered stateless, cross-platform authentication using **JWT**, securely routing payloads between the SwiftUI/Flutter frontends and backend microservices.
-
-#### 📦 DropBox Replica & Sync Gateway
-*A real-time, cross-platform file storage protocol.*
-* **Architecture:** ASP.NET Core Web API with live ngrok tunneling to synchronize cross-platform React and Flutter clients.
-* **Security:** Enforced strict client-side encryption layers prior to routing multipart data payloads through Cloudflare R2 object storage.
-
-#### 📊 Enterprise Management (Famigilia Doro & Biit Society)
-* **Architecture:** Full-stack enterprise environments built to manage complex relational databases, hierarchical permissions, and concurrent administrative workflows across diverse user bases.
+**Coursework:** Compiler Construction, Network & Application Security, Distributed Systems.
 
 ---
 
-### 🔬 Current Research: Applied AI & Security
-* **Algorithmic Mechanics:** Deriving Neural Network gradients (ANNs/CNNs like AlexNet) manually using pure NumPy to understand the math, rather than relying solely on TensorFlow/PyTorch wrappers.
-* **Network Vulnerabilities:** Researching protocol-level mitigations for DOM-based XSS, CSRF, DNS tunneling, and DHCP starvation to secure backend gateways by default.
+### 📊 Machine Learning
+Currently learning ML, Deep Learning, Computer Vision, and NLP — building from fundamentals up rather than relying on high-level abstractions.
