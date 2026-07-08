@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>⚡ Ameer Hamza</h1>
+  <h1>⚡ Hamza</h1>
   <h3>Backend Architect | Distributed Systems | Applied AI</h3>
 
   <p>
