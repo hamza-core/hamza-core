@@ -54,7 +54,7 @@ Cross-platform file sync tool — Flutter client, ASP.NET Core backend, JWT auth
 ### 🎓 University & Course Projects
 - **Computer Architecture project** — low-level hardware/software system work; used by a BIIT instructor as teaching material in the Computer Architecture course.
 - **IPFS File-Sharing Prototype** — decentralized storage using content-addressed chunks and P2P validation; used by a BIIT instructor as teaching material in the Information Security / Cyber Security course.
-- **Society Management System** — WinForms + SQL Server, built for BIIT.
+- **Society Management System** — WinForms + SQL Server.
 - **Assembly Shopping Cart** — x86 (EMU8086), for a computer architecture course.
 
 ---
