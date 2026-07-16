@@ -39,7 +39,7 @@
 
 Full-stack ride-sharing system built for real production patterns, not a tutorial clone:
 
-- **Backend**: ASP.NET Core Web API (.NET 10) with layered architecture — Repository, Service, and Controller layers, custom exceptions, and a `GlobalExceptionHandler` returning RFC 7807 `ProblemDetails`.
+- **Backend**: ASP.NET Core Web API (.NET 10) with layered architecture — Repository, Service, and Controller layers, custom exceptions, and a `GlobalExceptionHandler`
 - **Auth**: BCrypt password hashing + JWT with refresh token rotation and reuse detection.
 - **Clients**: Native SwiftUI apps for both Passenger and Driver roles.
 - **AI engine**: Separate Python service for pricing/routing intelligence.
