@@ -59,9 +59,6 @@ Cross-platform file sync tool — Flutter client, ASP.NET Core backend, JWT auth
 
 ---
 
-### 🔬 Currently studying
-- Deriving neural network gradients by hand in NumPy before reaching for PyTorch abstractions, ahead of an AI-focused final year project.
-
 **Coursework:** Compiler Construction, Network & Application Security, Distributed Systems.
 
 ---
